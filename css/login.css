@@ -1,0 +1,154 @@
+@import url(font-awesome.min.css);
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+::                    Login Form                     ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    body {
+        background: #fff;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    form {
+        background: #fff;
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.1);
+    }
+
+        form span {
+            margin: 16px 0;
+            display: block;
+            border: solid 1px #ededed;
+            border-radius: 5px;
+        }
+
+            form span input {
+                height: 47px;
+                width: 235px;
+                padding: 0 0 0 10px;
+                border: none;
+                border-radius: 5px;
+                font: 100 0.875rem 'Open Sans'
+            }
+
+           form span input:hover,
+           form span input:focus {
+                outline: none;
+            }
+
+           form span i {
+                line-height: 47px;
+                text-align: center;
+                width: 35px;
+                height: 35px;
+                border-radius: 5px;
+                color: #8c8c8c;
+            }
+
+            form a {
+                float: right;
+                padding: 0 10px;
+                line-height: 47px;
+                font: 100 1rem 'News Cycle';
+                color: #48454C;
+                text-decoration: none;
+            }
+
+            .login-form-button {
+                background-color: #042243;
+                padding: 5px 20px;
+                border: none;
+                color: #fff;
+                font: 500 0.875rem 'News Cycle';
+                border-radius: 5px;
+                box-shadow: 0px 3px 0px 0px rgba(3, 26, 52, 1);
+                float: right;
+            }
+
+            .login-form-button:hover {
+                box-shadow: 0px 3px 0px 0px rgba(6, 51, 101, 1);
+                background: #08458A;
+                cursor: pointer;
+                clear: both;
+            }
+
+            .clearfix {
+                clear: both;
+            }
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+::                     Message                       ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.user-active {
+    color: #00bb00;
+}
+
+.user-active:hover {
+    color: #00bb00;
+    text-shadow: 0px 0px 10px rgba(0,187,0,0.5);
+}
+
+.user-block {
+    color: #bb0000;
+}
+
+.user-block:hover {
+    color: #bb0000;
+    text-shadow: 0px 0px 10px rgba(187,0,0,0.5);
+}
+
+.message {
+		position: absolute;
+		top: 0px;
+		z-index: 2;
+		width:20%;
+		min-width: 400px;
+		overflow: hidden;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+}
+
+.e-message {
+    margin-top: 15px;
+    background: #ed432e;
+    color: #fff;
+    font: 100 1rem 'News Cycle';
+    position: relative;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.s-message {
+    margin-top: 15px;
+    background: #48ac64;
+    color: #fff;
+    font: 100 1rem 'News Cycle';
+    position: relative;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.a-message {
+    margin-top: 15px;
+    background: #ffb404;
+		color: #fff;
+    font: 100 1rem 'News Cycle';
+    position: relative;
+    display: block;
+    padding: 20px;
+    text-align: center;
+		border-radius: 10px;
+}
